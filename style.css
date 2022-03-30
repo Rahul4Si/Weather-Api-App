@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("cloudy.jpeg");
+    height: 100vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+.app-main{
+    width: 30rem;
+    background-color:rgba(255,255, 255, .6);
+    margin: 10rem auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+ .app-main>*{
+     margin-bottom: 2rem;
+ }
+ input{
+     width: 100%;
+     background-color: rgba(255,255, 255, .7);
+     border: none;
+     height: 3rem;
+     text-align: center;
+     font-size: 1.5rem;
+     padding: 0 1rem;
+     outline: none;
+     border-radius: .8rem;
+ }
+
+ input:focus{
+     background-color: #fff;
+ }
+
+ .weather-body{
+      background-color: rgba(255,255, 255, .7);
+      font-size: 1.2rem;
+      padding: 1rem;
+      border-radius: .8rem;
+      display: none;
+ }
+
+ .location-details{
+     font-weight: 700;
+ }
+ .city{
+     padding-bottom: 1rem;
+ }
+
+ .weather-status{
+     padding: 2rem;
+ }
+ .temp{
+     font-size: 5rem;
+     text-shadow: .2rem .2rem 1rem  rgba(0,0, 0, .6);
+ }
+ .min-max,.weather{
+     font-size: 1.2rem;
+     font-weight:600;
+     padding-bottom: 1rem;
+ }
